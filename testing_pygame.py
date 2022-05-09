@@ -4,8 +4,8 @@ import pygame
 pygame.init()
 image_resources = 'B:/PycharmPython/Pygame_Session/fighter_ship.bmp'
 
-screen_width = 1000
-screen_height = 600
+screen_width = 10000
+screen_height = 6000
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 image1 = pygame.image.load(image_resources)
